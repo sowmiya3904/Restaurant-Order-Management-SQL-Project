@@ -1,0 +1,182 @@
+Restaurant Order Management System
+
+A comprehensive Restaurant Order Management System built using MySQL that simulates the daily operations of a restaurant. This project demonstrates relational database design, SQL programming, and database management concepts through a real-world business scenario.
+
+---
+ Project Overview
+
+The Restaurant Order Management System is designed to efficiently manage restaurant operations by storing and organizing information related to customers, employees, menu items, orders, payments, reservations, billing, deliveries, suppliers, and inventory.
+The project follows database normalization principles and implements various SQL concepts ranging from basic CRUD operations to advanced database objects such as views, stored procedures, functions, and triggers.
+This project is suitable for students, beginners in SQL, and anyone interested in understanding how relational databases are used in real-world applications.
+
+---
+ Project Objectives
+The primary objectives of this project are to:
+* Design a normalized relational database.
+* Manage restaurant data efficiently using MySQL.
+* Perform Create, Read, Update, and Delete (CRUD) operations.
+* Maintain data integrity using constraints and relationships.
+* Generate meaningful business reports using SQL queries.
+* Demonstrate advanced SQL programming concepts.
+* Simulate a real-world restaurant management system.
+
+---
+ Technologies Used
+
+| Technology | Description                  |
+| ---------- | ---------------------------- |
+| Database   | MySQL                        |
+| Language   | SQL                          |
+| Tools      | MySQL Workbench, Git, GitHub |
+
+---
+#  Database Modules
+
+The project contains the following database modules:
+
+* Customers
+* Employees
+* Categories
+* Menu Items
+* Orders
+* Order Details
+* Payments
+* Bills
+* Reservations
+* Dining Tables
+* Delivery
+* Kitchen Orders
+* Ingredients
+* Suppliers
+* Discounts
+
+---
+
+#  Database Objects Implemented
+
+This project demonstrates the implementation of various database objects, including:
+
+* Database Creation
+* Tables
+* Primary Keys
+* Foreign Keys
+* Constraints
+* Indexes
+* Views
+* Stored Procedures
+* User-Defined Functions
+* Triggers
+
+---
+
+# SQL Concepts Covered
+
+ Data Definition Language (DDL)
+
+* CREATE
+* ALTER
+* DROP
+* TRUNCATE
+
+ Data Manipulation Language (DML)
+
+* INSERT
+* UPDATE
+* DELETE
+
+ Data Query Language (DQL)
+
+* SELECT
+
+ Data Control Language (DCL)
+
+* GRANT
+* REVOKE
+
+ Transaction Control Language (TCL)
+
+* COMMIT
+* ROLLBACK
+* SAVEPOINT
+*SET TRANACTION
+
+Advanced SQL Concepts
+
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* SELF JOIN
+* Aggregate Functions
+* GROUP BY
+* HAVING
+* ORDER BY
+* Subqueries
+* Correlated Subqueries
+* Common Table Expressions (CTEs)
+* Window Functions
+* Views
+* Stored Procedures
+* Functions
+* Triggers
+* Indexes
+
+---
+
+ Project Structure
+
+Restaurant-Order-Management/
+│
+├── Database.sql
+├── Tables.sql
+├── Insert_Data.sql
+├── Queries.sql
+├── Stored_Procedures.sql
+├── Triggers.sql
+├── ER_Diagram.png
+└── README.md
+
+ Database Schema
+
+The system consists of multiple related tables connected through primary and foreign key relationships. Core Tables
+
+| Table          | Description                 |
+| -------------- | --------------------------- |
+| Customers      | Stores customer information |
+| Employees      | Stores employee details     |
+| Categories     | Food categories             |
+| Menu_Items     | Restaurant menu items       |
+| Orders         | Customer orders             |
+| Order_Details  | Ordered items               |
+| Payments       | Payment records             |
+| Bills          | Billing information         |
+| Reservations   | Table reservations          |
+| Dining_Tables  | Restaurant table details    |
+| Delivery       | Delivery information        |
+| Kitchen_Orders | Kitchen order tracking      |
+| Ingredients    | Ingredient inventory        |
+| Suppliers      | Supplier information        |
+| Discounts      | Discount details            |
+
+ ER Diagram
+
+The project includes an Entity Relationship Diagram (ERD) illustrating the relationships among all database table
+
+ Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* Relational Database Design
+* Database Normalization
+* SQL Programming
+* Database Relationships
+* Data Integrity
+* Query Optimization
+* Business Data Modeling
+* Stored Procedures
+* Functions
+* Triggers
+* Views
+* Transaction Management
+* Real-world Database Development
+
+
